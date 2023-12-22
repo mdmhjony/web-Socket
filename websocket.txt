@@ -1,0 +1,37 @@
+client--- as like three client want to watch 2 client same channel and on want to another chennel
+
+
+
+socket server--- they 
+
+web server---send data in socket server
+
+
+
+at first we need enable socket ..
+
+in xamp contorl panel in cofig right click and then php.ini a jabo then search socket
+
+thin extension=sockets ; remove and save then appace restart again then socket would be enable
+
+
+php -f server.php
+
+
+AF_INET this is ip version 4 defult domain
+
+SOCK_STREAM, 
+
+
+create a function 
+$socket=socket_create(AF_INET,){//domain,type,protocall theree perametter
+}
+
+
+for library in folder
+composer require cboden/ratchet
+
+
+here some file create by command and retcheat website follow 
+
+then composer update command run
